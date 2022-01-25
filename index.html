@@ -1,69 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Rebecca Neimeyer</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/61852eca18.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
     <script
-    src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous"
-  ></script>
+      src="https://kit.fontawesome.com/61852eca18.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
     <script src="app.js" charset="utf-8"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class=top_nav>
-            <a href="">ABOUT</a>
-            <a href="">SKILLS</a>
-            <a href="">PROJECTS</a>
-            <a href="">CONTACT</a>
-            <i class="fas fa-bars"></i>
-        </nav>
+      <nav class="top_nav">
+        <a href="">ABOUT</a>
+        <a href="">SKILLS</a>
+        <a href="">PROJECTS</a>
+        <a href="">CONTACT</a>
+        <i class="fas fa-bars"></i>
+      </nav>
     </header>
     <section class="welcome">
-        <h1>WELCOME!</h1>
+      <h1>WELCOME!</h1>
+      <div class="picBox">
+        <p>I'm Rebecca Neimeyer</p>
+        <img src="/assets/myPic.jpeg" alt="Rebecca's picture" class="myPic" />
+      </div>
     </section>
     <section class="about">
-        <h1>ABOUT ME</h1>
-        <p>Hi! My name is Rebecca Neimeyer, and I am a new software engineer. Thanks for visiting!</p>
+      <h1>ABOUT ME</h1>
+      <div class="aboutBox">
+        <p class="firstP">
+          Hi! My name is Rebecca Neimeyer, and I am a new software engineer.
+        </p>
+        <p class="secondP"> I'm excited about new opportunities in
+          the field. Feel free to reach out in the form below. Thanks for
+          visiting!
+        </p>
+        <div class="iconBox">
+        <i class="fas fa-university"> UCLA</i>
+        <i class="fas fa-university"> General Assembly</i>
+        <i class="fas fa-map-marker-alt"> San Francisco Bay Area</i>
+    </div>
+      </div>
     </section>
     <section class="skills">
-        <h1>SKILLS</h1>
-        <div>HTML</div>
-        <div>CSS</div>
-        <div>Javascript</div>
-        <div>jQuery</div>
+      <h1>SKILLS</h1>
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>Javascript</div>
+      <div>jQuery</div>
     </section>
     <section class="projects">
-        <h1>PROJECTS</h1>
-        <div>Amazing Project #1</div>
-        <div>Amazing Project #2</div>
-        <div>Amazing Project #3</div>
+      <h1>PROJECTS</h1>
+      <div>Amazing Project #1</div>
+      <div>Amazing Project #2</div>
+      <div>Amazing Project #3</div>
     </section>
     <section class="contact">
-        <h1>CONTACT ME</h1>
-        <form>
-            <input type='text' id='name' name='name' placeholder='Name' required>
-            <input type='email' id='email' name='email' placeholder='Email' required>
-            <textarea name='message' id='message' rows='10' columns='10' placeholder='Please leave a message!' required></textarea>
-            <input type='submit' id='submit' value='Submit'>
-          </form>
+      <h1>CONTACT ME</h1>
+      <form>
+        <input type="text" id="name" name="name" placeholder="Name" required />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required
+        />
+        <textarea
+          name="message"
+          id="message"
+          rows="10"
+          columns="10"
+          placeholder="Please leave a message!"
+          required
+        ></textarea>
+        <input type="submit" id="submit" value="Submit" />
+      </form>
     </section>
-    <hr>
+    <hr />
     <footer>
-        <nav class=socialIcons>
-            <!-- linkedin
+      <nav class="socialIcons">
+        <!-- linkedin
             instagram
             github -->
-        </nav>
-        <p>Rebecca Neimeyer - 2022</p>
+      </nav>
+      <p>Rebecca Neimeyer - 2022</p>
     </footer>
-</body>
+  </body>
 </html>
