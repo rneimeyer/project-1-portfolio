@@ -84,3 +84,4 @@ In this project, I will create a portfolio to show who I am as a developer. My p
 
 ## Issues and Resolutions
 
+My hamburger slide wasn't working originally, but I realized that I needed to prevent the default and wrap my code in a function to have jQuery wait to read the full HTML before actioning.
