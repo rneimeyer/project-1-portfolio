@@ -106,22 +106,47 @@ body {
   font-style: italic;
   text-align: center;
 }
-#projects div {
+/* #projects div {
   display: inline-flex;
   /* justify-content: space-between; */
-}
-.project1, .project2, .project3 {
+} */
+/* .project1, .project2, .project3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0px 25px;
   gap: 5px;
-}
+} */
 /* .project2 img, .project2 .description, .project3 img, .project3 .description {
   display: none;
 } */
 .projectPic {
-  height: 200px;
+  /* height: 200px; */
+  position: relative;
+  width: 30%;
+}
+.carousel-item {
+  width: 50%;
+  align-items: center;
+  position: relative;
+}
+.carousel-inner {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.projectText {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: grey;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 30px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
 }
 form {
   display: grid;

@@ -13,4 +13,5 @@ $(() => {
         $('.links').slideToggle()
         console.log('hi')
     })
+    // data-bs-interval=false;
   });
