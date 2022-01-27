@@ -40,7 +40,6 @@ In this project, I will create a portfolio to show who I am as a developer. My p
 - Skills section with icons
 - Contact Me section with form for contact information
 - Consistent style throughout
-- Storing form data
 
 #### PostMVP 
 
@@ -48,6 +47,8 @@ In this project, I will create a portfolio to show who I am as a developer. My p
 - Animations in welcome/header section
 - Carousel for projects and skills
 - Specific icon for site
+- Storing form data
+
 
 ## Functional Components
 
@@ -59,7 +60,7 @@ In this project, I will create a portfolio to show who I am as a developer. My p
 | About Me Section | H | 2hr | hr |
 | Project Section | H | 3hr | hr |
 | Contact Me Section | H | 2hr | hr |
-| Form functionality + storage | H | 3hr|  hr | 
+| Form functionality | H | 3hr|  hr | 
 | Responsive Layout | H | 3hr | hr | hr |
 | Social Media Icons | M | 1hr |  hr |
 | Total |  | 18hrs| hrs |
@@ -71,6 +72,7 @@ In this project, I will create a portfolio to show who I am as a developer. My p
 | Banner animation | L | 1hr | hr |
 | Make own icon | L | 2hr | hr |
 | Carousel | L | 4hr | hr |
+| Form Storage | L | 4hr | hr |
 | Total |  | 10hrs| hrs |
 
 ## Additional Libraries
@@ -85,3 +87,26 @@ In this project, I will create a portfolio to show who I am as a developer. My p
 ## Issues and Resolutions
 
 My hamburger slide wasn't working originally, but I realized that I needed to prevent the default and wrap my code in a function to have jQuery wait to read the full HTML before actioning.
+
+It took me a while to center the content in my carousel. I originally was using CSS to make the updates, but through reading the bootstrap documentation, there were classes I could add to my images to help center align them on the page and update the width so they didn't take up the full page.
+
+```class="rounded mx-auto d-block w-50"```
+
+However, once I fixed that alignment, the next images were bounching down and up as I tried to click to the next one. After trying a lot of different solutions, I realized I still had ```position: relative;``` listed for the carousel-inner and carousel-item. Once I removed that, the carousel started going through smoothly again. The code I removed is commented out below.
+
+```css
+.projectPic {
+  /* height: 200px; */
+  /* position: relative; */
+}
+.carousel-item {
+  /* width: 50%; */
+  /* position: relative;
+  margin: 0 auto; */
+}
+.carousel-inner {
+  /* align-items: center;
+  justify-content: center;
+  align-content: center; */
+}
+```

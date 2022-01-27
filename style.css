@@ -30,7 +30,7 @@ header .initial {
 .hamburger {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 3px;
     padding: 10px;
     color: black;
     justify-content: flex-end;
@@ -51,6 +51,7 @@ header .initial {
 .links {
     display: none;
     margin-top: 30px;
+    margin-right: 10px;
     justify-content: flex-end;
 }
 .links a:hover {
@@ -60,8 +61,6 @@ header .initial {
     display: block;
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.5);
-    /* background-color: white; */
-    
 }
 
 .welcome::first-letter {
@@ -91,18 +90,13 @@ header .initial {
 .secondP {
   padding: 0px 25px;
 }
-/* .about i {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    text-align: left;
-} */
+
 .iconBox {
   grid-column: 2/3;
   grid-row: 1/3;
   display: flex;
   flex-direction: column;
   text-align: left;
-  /* align-content: center; */
   margin-top: 16px;
 }
 .ucla, .ga, .sf {
@@ -134,9 +128,9 @@ header .initial {
 }
 /* #projects div {
   display: inline-flex;
-  /* justify-content: space-between; */
-} */
-/* .project1, .project2, .project3 {
+  justify-content: space-between;
+}
+.project1, .project2, .project3 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -146,43 +140,20 @@ header .initial {
 /* .project2 img, .project2 .description, .project3 img, .project3 .description {
   display: none;
 } */
-.projectPic {
-  /* height: 200px; */
-  /* position: relative; */
-}
+
 .carousel-item {
-  /* width: 50%; */
-  /* position: relative;
-  margin: 0 auto; */
   padding-bottom: 20px;
 }
-.carousel-inner {
-  /* align-items: center;
-  justify-content: center;
-  align-content: center; */
-}
 
-.projectText {
-  position: absolute;
-  bottom: 50px;
-  right: 50px;
-  background-color: grey;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 30px;
-  font-size: 20px;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
+/* .projectText {
+  font-size: 1em;
+} */
 form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 6fr 1fr;
   margin: 10px;
   gap: 5px;
-  /* width: 300px; */
   align-items: center;
   justify-content: center;
 } 
@@ -260,6 +231,7 @@ hr {
   }
   .top_nav {
     justify-content: flex-end;
+    margin-right: 10px;
   }
   .links {
       display: inline;
