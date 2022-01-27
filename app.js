@@ -11,7 +11,6 @@ $(() => {
     $('.hamburger').click(function(event) {
         event.preventDefault();
         $('.links').slideToggle()
-        console.log('hi')
     })
-    // data-bs-interval=false;
+
   });

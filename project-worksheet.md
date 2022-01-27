@@ -77,6 +77,10 @@ In this project, I will create a portfolio to show who I am as a developer. My p
 
 ## Additional Libraries
 
+[Bootstrap](https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js)
+[Font Awesome](https://kit.fontawesome.com/61852eca18.js)
+[Google Fonts](https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap)
+Color Palette help: https://www.colorsandfonts.com/color-palettes
 
 ## Code Snippet
 

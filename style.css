@@ -3,8 +3,8 @@ body {
   font-weight: 300;
   font-style: italic;
   text-align: center;
-  background-color: #7cbbffa4;
-  color: rgb(70, 67, 67);
+  background-color: #0c7b93;
+  color: #fbfffe;
 }
 header {
   display: flex;
@@ -19,7 +19,7 @@ header .initial {
   margin: 20px;
   padding: 5px;
   font-size: 30px;
-  background-color: pink;
+  background-color: #fcd1d1;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -28,48 +28,51 @@ header .initial {
   justify-content: flex-end;
 }
 .hamburger {
-    position: absolute;
-    top: 0;
-    right: 3px;
-    padding: 10px;
-    color: black;
-    justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  right: 3px;
+  padding: 10px;
+  color: #fcd1d1;
+  justify-content: flex-end;
 }
-.hamburger:hover{
-    color: rgba(70, 67, 67, 0.205);
+.hamburger:hover {
+  color: rgba(70, 67, 67, 0.205);
 }
 .top_nav {
   text-align: right;
   /* justify-content: flex-end; */
 }
 .top_nav a {
-  color: rgb(70, 67, 67);
+  color: #142850;
   text-decoration: none;
   padding: 10px;
   /* display: none; */
 }
 .links {
-    display: none;
-    margin-top: 30px;
-    margin-right: 10px;
-    justify-content: flex-end;
+  display: none;
+  margin-top: 30px;
+  margin-right: 10px;
+  justify-content: flex-end;
 }
 .links a:hover {
-  color: rgba(70, 67, 67, 0.205);
+  color: #fbfffe;
 }
 .links a {
-    display: block;
-    padding: 5px;
-    background-color: rgba(255, 255, 255, 0.5);
+  display: block;
+  padding: 5px;
+  background-color: #fcd1d1;
 }
-
+.welcome h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 50px;
+}
 .welcome::first-letter {
   font-size: 50px;
 }
 .picBox {
   display: inline-flex;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #27496d;
   border-radius: 3%;
 }
 .myPic {
@@ -79,6 +82,9 @@ header .initial {
 .welcome p {
   padding: 20px;
   font-size: 20px;
+}
+#about {
+  margin-top: 25px;
 }
 .aboutBox {
   display: grid;
@@ -99,10 +105,15 @@ header .initial {
   text-align: left;
   margin-top: 16px;
 }
-.ucla, .ga, .sf {
+.ucla,
+.ga,
+.sf {
   display: inline-flex;
   justify-content: flex-start;
   gap: 4px;
+}
+#skills {
+  margin-top: 25px;
 }
 #skills div {
   display: inline-flex;
@@ -112,12 +123,17 @@ header .initial {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #c8dce0b9;
+  border-radius: 3%;
 }
-.html, .css, .javascript {
+.html,
+.css,
+.javascript {
   margin: 25px;
 }
 .fab {
   font-size: 45px;
+  color: #27496d;
 }
 .fab p {
   font-size: 20px;
@@ -141,6 +157,9 @@ header .initial {
   display: none;
 } */
 
+#projects {
+  margin-top: 25px;
+}
 .carousel-item {
   padding-bottom: 20px;
 }
@@ -148,6 +167,9 @@ header .initial {
 /* .projectText {
   font-size: 1em;
 } */
+#contact {
+  margin-top: 25px;
+}
 form {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -156,12 +178,14 @@ form {
   gap: 5px;
   align-items: center;
   justify-content: center;
-} 
+}
 ::placeholder {
   font-family: "Nunito", sans-serif;
   font-weight: 300;
   font-style: italic;
   font-size: 15px;
+  color: #142850;
+  background-color: #FBFFFE;
 }
 #name {
   grid-column: 1/2;
@@ -184,6 +208,8 @@ form {
   font-weight: 300;
   font-style: italic;
   height: 25px;
+  color: #142850;
+  background-color: #FBFFFE;
 }
 input.submit {
   font-size: 15px;
@@ -192,14 +218,19 @@ input.submit {
   font-style: italic;
 }
 hr {
-    width: 50%;
-    margin: 0 auto;
-  }
-.socialIcons a {
-  color: rgb(177, 158, 161);
+  width: 50%;
+  margin: 0 auto;
 }
 .socialIcons .fab {
+  margin: 15px;
   font-size: 25px;
+}
+.socialIcons a i:hover {
+  color: #fcd1d1;
+}
+footer p {
+  font-family: "Sacramento", cursive;
+  font-size: 20px;
 }
 @media only screen and (min-width: 768px) {
   form {
@@ -234,10 +265,10 @@ hr {
     margin-right: 10px;
   }
   .links {
-      display: inline;
-      justify-content: flex-end;
+    display: inline;
+    justify-content: flex-end;
   }
-  .links a{
+  .links a {
     display: inline;
     text-align: right;
   }
@@ -263,6 +294,9 @@ hr {
   .welcome h1::first-letter {
     font-size: 75px;
   }
+  .welcome h1 {
+    font-size: 60px;
+  }
   .aboutBox {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -278,6 +312,6 @@ hr {
     padding: 0px 50px;
   }
   .picBox {
-      width: 350px;
+    width: 350px;
   }
 }
