@@ -36,10 +36,11 @@
   </head>
   <body>
     <header>
-        <div class="initial">R</div>
-      <a href="" class="hamburger">
-        <i class="fas fa-bars"></i>
-      </a>
+      <div class="initial">R</div>
+    <div class="menu">
+        <a href="" class="hamburger">
+            <i class="fas fa-bars"></i>
+          </a>
       <nav class="top_nav">
         <div class="links">
           <a href="#about">ABOUT</a>
@@ -48,6 +49,8 @@
           <a href="#contact">CONTACT</a>
         </div>
       </nav>
+
+    </div>
     </header>
     <section class="welcome">
       <h1>WELCOME!</h1>
@@ -125,36 +128,36 @@
             aria-label="Slide 3"
           ></button>
         </div>
-        <div class="carousel-inner text-center">
-          <div class="carousel-item active rounded mx-auto">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
             <img
               src="/assets/dukecouch.jpeg"
-              class="d-block w-100 projectPic"
+              class="rounded mx-auto d-block w-50"
               alt="dog sitting on couch"
             />
-            <div class="projectText rounded mx-auto">
-              <p class="description">Project #1</p>
-            </div>
+            <!-- <div class="projectText"> -->
+            <p class="description">Project #1</p>
+            <!-- </div> -->
           </div>
-          <div class="carousel-item rounded mx-auto">
+          <div class="carousel-item">
             <img
               src="/assets/dukebeach.jpeg"
-              class="d-block w-100 projectPic"
+              class="rounded mx-auto d-block w-50"
               alt="dog running on beach"
             />
-            <div class="projectText">
-              <p class="description">Project #2</p>
-            </div>
+            <!-- <div class="projectText"> -->
+            <p class="description">Project #2</p>
+            <!-- </div> -->
           </div>
           <div class="carousel-item">
             <img
               src="/assets/dukegrass.jpeg"
-              class="d-block w-100 projectPic"
+              class="rounded mx-auto d-block w-50"
               alt="dog laying in grass"
             />
-            <div class="projectText">
-              <p class="description">Project #3</p>
-            </div>
+            <!-- <div class="projectText"> -->
+            <p class="description">Project #3</p>
+            <!-- </div> -->
           </div>
         </div>
         <button
@@ -226,10 +229,14 @@
     <hr />
     <footer>
       <nav class="socialIcons">
-        <a href="https://www.linkedin.com/in/rebecca-neimeyer-37b87b141/" target="_blank"
+        <a
+          href="https://www.linkedin.com/in/rebecca-neimeyer-37b87b141/"
+          target="_blank"
           ><i class="fab fa-linkedin"></i
         ></a>
-        <a href="https://github.com/rneimeyer" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://github.com/rneimeyer" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
         <a href="https://codepen.io/rneimeyer" target="_blank"
           ><i class="fab fa-codepen"></i>
         </a>
