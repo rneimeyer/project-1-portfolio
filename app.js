@@ -12,5 +12,8 @@ $(() => {
         event.preventDefault();
         $('.links').slideToggle()
     })
-
+    $('.fab').hover(function(event) {
+        event.preventDefault();
+        $(event.target).toggle(css, "font-size", "25px")
+    })
   });
