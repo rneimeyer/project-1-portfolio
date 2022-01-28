@@ -194,12 +194,12 @@ form {
 #name {
   grid-column: 1/2;
   grid-row: 1/2;
-  height: 20px;
+  height: 40px;
 }
 #email {
   grid-column: 1/2;
   grid-row: 2/3;
-  height: 20px;
+  height: 40px;
 }
 #message {
   grid-column: 1/3;
@@ -211,7 +211,7 @@ form {
   font-family: "Nunito", sans-serif;
   font-weight: 300;
   font-style: italic;
-  height: 25px;
+  height: 40px;
   color: #142850;
   background-color: #FBFFFE;
 }
@@ -254,24 +254,24 @@ footer p {
   #name {
     grid-column: 1/2;
     grid-row: 1/2;
-    width: 150px;
+    width: 60%;
     justify-self: end;
   }
   #email {
     grid-column: 1/2;
     grid-row: 2/3;
-    width: 150px;
+    width: 60%;
     justify-self: end;
   }
   #message {
     grid-column: 2/3;
     grid-row: 1/4;
-    width: 450px;
+    width: 90%;
   }
   #submit {
     grid-column: 2/3;
     grid-row: 4/5;
-    width: 100px;
+    width: 60%;
   }
   .top_nav {
     justify-content: flex-end;
@@ -305,10 +305,10 @@ footer p {
     font-size: 40px;
   }
   .welcome h1::first-letter {
-    font-size: 75px;
+    font-size: 85px;
   }
   .welcome h1 {
-    font-size: 60px;
+    font-size: 70px;
   }
   .aboutBox {
     display: grid;
