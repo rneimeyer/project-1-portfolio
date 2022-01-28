@@ -6,11 +6,11 @@
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 4| MVP & Bug Fixes | Complete
+|Day 5| Final Touches | Complete
 |Day 6| Present | Incomplete
 
 
@@ -63,7 +63,7 @@ In this project, I will create a portfolio to show who I am as a developer. My p
 | Form functionality | H | 3hr|  4hr | 
 | Responsive Layout | H | 3hr | 4hr |
 | Social Media Icons | M | 1hr |  1hr |
-| Total |  | 18hrs| hrs |
+| Total |  | 18hrs| 21hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
@@ -73,14 +73,17 @@ In this project, I will create a portfolio to show who I am as a developer. My p
 | Make own icon | L | 2hr | 2hr |
 | Carousel | L | 4hr | 5hr |
 | Form Storage | L | 4hr | hr |
-| Total |  | 10hrs| hrs |
+| Total |  | 14hrs| 7hrs |
 
 ## Additional Libraries
 
 [Bootstrap](https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js)
+
 [Font Awesome](https://kit.fontawesome.com/61852eca18.js)
+
 [Google Fonts](https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap)
-Color Palette help: https://www.colorsandfonts.com/color-palettes
+
+[Color Palette](https://www.colorsandfonts.com/color-palettes)
 
 ## Code Snippet
 
