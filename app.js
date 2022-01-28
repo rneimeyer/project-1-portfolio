@@ -12,8 +12,14 @@ $(() => {
         event.preventDefault();
         $('.links').slideToggle()
     })
-    $('.fab').hover(function(event) {
+
+// Used guidance from W3 and the jquery cheat sheet for below function
+// https://www.w3schools.com/jquery/eff_animate.asp
+// https://oscarotero.com/jquery/
+
+    $('.fa-chevron-circle-up').click(function(event) {
         event.preventDefault();
-        $(event.target).toggle(css, "font-size", "25px")
+        $('html').animate({scrollTop:0}, 1000);
+        console.log('hi')
     })
   });

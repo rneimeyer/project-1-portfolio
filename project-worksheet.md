@@ -55,23 +55,23 @@ In this project, I will create a portfolio to show who I am as a developer. My p
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 2hr | hr |
-| Regular Nav + Linking | H | 2hr | hr |  
-| About Me Section | H | 2hr | hr |
-| Project Section | H | 3hr | hr |
-| Contact Me Section | H | 2hr | hr |
-| Form functionality | H | 3hr|  hr | 
-| Responsive Layout | H | 3hr | hr | hr |
-| Social Media Icons | M | 1hr |  hr |
+| Hamburger | H | 2hr | 3hr |
+| Regular Nav + Linking | H | 2hr | 3hr |  
+| About Me Section | H | 2hr | 2hr |
+| Project Section | H | 3hr | 2hr |
+| Contact Me Section | H | 2hr | 2hr |
+| Form functionality | H | 3hr|  4hr | 
+| Responsive Layout | H | 3hr | 4hr |
+| Social Media Icons | M | 1hr |  1hr |
 | Total |  | 18hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project animation | L | 3hr | -hr | hr |
+| Project animation | L | 3hr | hr |
 | Banner animation | L | 1hr | hr |
-| Make own icon | L | 2hr | hr |
-| Carousel | L | 4hr | hr |
+| Make own icon | L | 2hr | 2hr |
+| Carousel | L | 4hr | 5hr |
 | Form Storage | L | 4hr | hr |
 | Total |  | 10hrs| hrs |
 
@@ -84,8 +84,11 @@ Color Palette help: https://www.colorsandfonts.com/color-palettes
 
 ## Code Snippet
 
-```
-
+```js
+    $('.hamburger').click(function(event) {
+        event.preventDefault();
+        $('.links').slideToggle()
+    })
 ```
 
 ## Issues and Resolutions

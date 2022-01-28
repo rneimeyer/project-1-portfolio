@@ -24,6 +24,10 @@ header .initial {
   height: 50px;
   border-radius: 50%;
 }
+header .initial:hover {
+  color: #fcd1d1;
+  background-color: #fbfffe;
+}
 .menu {
   justify-content: flex-end;
 }
@@ -217,9 +221,17 @@ input.submit {
   font-weight: 300;
   font-style: italic;
 }
+
 hr {
   width: 50%;
   margin: 0 auto;
+}
+.fa-chevron-circle-up {
+  font-size: 25px;
+  color: #27496d;
+}
+.fa-chevron-circle-up:hover {
+  color: #fcd1d1;
 }
 .socialIcons .fab {
   margin: 15px;
@@ -231,6 +243,7 @@ hr {
 footer p {
   font-family: "Sacramento", cursive;
   font-size: 20px;
+
 }
 @media only screen and (min-width: 768px) {
   form {
