@@ -50,8 +50,8 @@ header .initial:hover {
 }
 .links {
   display: none;
-  margin-top: 30px;
-  margin-right: 10px;
+  margin-top: 10px;
+  margin-right: 30px;
   justify-content: flex-end;
 }
 .links a:hover {
@@ -59,8 +59,9 @@ header .initial:hover {
 }
 .links a {
   display: block;
-  padding: 5px;
+  padding: 2px;
   background-color: #fcd1d1;
+  z-index: 10;
 }
 .welcome h1 {
   font-family: "Sacramento", cursive;
@@ -96,7 +97,9 @@ header .initial:hover {
 .secondP {
   padding: 0px 25px;
 }
-
+.secondP a {
+  color: white;
+}
 .iconBox {
   grid-column: 2/3;
   grid-row: 1/3;
@@ -119,16 +122,14 @@ header .initial:hover {
   display: inline-flex;
   justify-content: space-between;
 }
-.skillIcons {
+.skillIconsBox {
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #c8dce0b9;
   border-radius: 3%;
 }
-.html,
-.css,
-.javascript {
+.skillIcons {
   margin: 25px;
 }
 .fab {
@@ -148,57 +149,6 @@ header .initial:hover {
 }
 .carousel-item {
   padding-bottom: 20px;
-}
-
-#contact {
-  margin-top: 25px;
-}
-form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 6fr 1fr;
-  margin: 10px;
-  gap: 5px;
-  align-items: center;
-  justify-content: center;
-}
-::placeholder {
-  font-family: "Nunito", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-  font-size: 15px;
-  color: #142850;
-  background-color: #FBFFFE;
-}
-#name {
-  grid-column: 1/2;
-  grid-row: 1/2;
-  height: 40px;
-}
-#email {
-  grid-column: 1/2;
-  grid-row: 2/3;
-  height: 40px;
-}
-#message {
-  grid-column: 1/3;
-  grid-row: 3/4;
-}
-#submit {
-  grid-column: 1/2;
-  grid-row: 4/5;
-  font-family: "Nunito", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-  height: 40px;
-  color: #142850;
-  background-color: #FBFFFE;
-}
-input.submit {
-  font-size: 15px;
-  font-family: "Nunito", sans-serif;
-  font-weight: 300;
-  font-style: italic;
 }
 
 hr {
@@ -222,8 +172,8 @@ hr {
 footer p {
   font-family: "Sacramento", cursive;
   font-size: 20px;
-
 }
+
 @media only screen and (min-width: 768px) {
   form {
     display: grid;
@@ -255,8 +205,10 @@ footer p {
   .top_nav {
     justify-content: flex-end;
     margin-right: 10px;
+    visibility: visible;
   }
   .links {
+    visibility: visible;
     display: inline;
     justify-content: flex-end;
   }
@@ -264,7 +216,6 @@ footer p {
     display: inline;
     text-align: right;
   }
-
   .hamburger {
     display: none;
   }
