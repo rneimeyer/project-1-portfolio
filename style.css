@@ -22,10 +22,10 @@ header .initial {
   height: 50px;
   border-radius: 50%;
 }
-header .initial:hover {
+/* header .initial:hover {
   color: #fcd1d1;
   background-color: #fbfffe;
-}
+} */
 .menu {
   justify-content: flex-end;
 }
@@ -61,7 +61,6 @@ header .initial:hover {
   display: block;
   padding: 2px;
   background-color: #fcd1d1;
-  z-index: 10;
 }
 .welcome h1 {
   font-family: "Sacramento", cursive;
@@ -130,18 +129,19 @@ header .initial:hover {
   border-radius: 3%;
 }
 .skillIcons {
-  margin: 25px;
+  margin: 13px;
 }
 .fab {
-  font-size: 45px;
+  font-size: 35px;
   color: #27496d;
 }
 .fab p {
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Nunito", sans-serif;
   font-weight: 300;
   font-style: italic;
   text-align: center;
+  margin-bottom: 0;
 }
 
 #projects {
@@ -149,6 +149,9 @@ header .initial:hover {
 }
 .carousel-item {
   padding-bottom: 20px;
+}
+.projectText h5 {
+  margin-top: 5px;
 }
 
 hr {
@@ -215,9 +218,20 @@ footer p {
   .links a {
     display: inline;
     text-align: right;
+    border-radius: 8%;
+    padding: 5px;
   }
   .hamburger {
     display: none;
+  }
+  .fab {
+    font-size: 45px;
+  }
+  .fab p {
+    font-size: 20px;
+  }
+  .skillIcons {
+    margin: 25px;
   }
 }
 
