@@ -19,7 +19,7 @@ $(() => {
 
     $('.fa-chevron-circle-up').click(function(event) {
         event.preventDefault();
-        $('html').animate({scrollTop:0}, 1000);
+        $('html').animate({scrollTop:0}, 100);
         console.log('hi')
     })
   });
