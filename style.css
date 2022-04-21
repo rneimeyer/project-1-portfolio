@@ -174,15 +174,15 @@ hr {
 .socialIcons {
   background-color: #fcd1d1;
   margin: 5px auto;
-  width: 25%;
+  width: 42%;
   border-radius: 3%;
 }
 .socialIcons p {
   color: #27496d;
-  padding-top: 5px;
+  padding: 5px;
 }
 .socialIcons .fab {
-  margin: 15px;
+  margin: 5px;
   font-size: 25px;
 }
 .socialIcons a i:hover {
@@ -252,7 +252,7 @@ footer p {
     margin: 25px;
   }
   .socialIcons {
-    width: 15%;
+    width: 27%;
   }
 }
 
@@ -293,6 +293,6 @@ footer p {
     width: 350px;
   }
   .socialIcons {
-    width: 12%;
+    width: 20%;
   }
 }
