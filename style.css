@@ -159,6 +159,9 @@ header .initial {
 .projectText h5 {
   margin-top: 5px;
 }
+.project-links a {
+  color: #fbfffe;
+}
 
 hr {
   width: 50%;
